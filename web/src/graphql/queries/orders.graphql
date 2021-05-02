@@ -1,0 +1,15 @@
+query Orders($limit: Int!, $cursor: String) {
+  orders(limit: $limit, cursor: $cursor) {
+    hasMore
+    orders {
+      id
+      trackingNumber
+      customerAcc
+      chatroomId
+      socialId
+      postalId
+      createdAt
+      updatedAt
+    }
+  }
+}

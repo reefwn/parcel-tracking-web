@@ -1,0 +1,9 @@
+mutation UpdateOrder($id: Int!, $input: OrderInput!) {
+  updateOrder(id: $id, input: $input) {
+    id
+    customerAcc
+    chatroomId
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,14 @@
+query Order($id: Int!) {
+  order(id: $id) {
+    id
+    trackingNumber
+    customerAcc
+    chatroomId
+    socialId
+    postalId
+    user {
+      id
+      email
+    }
+  }
+}

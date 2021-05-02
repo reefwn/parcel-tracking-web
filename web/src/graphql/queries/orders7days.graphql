@@ -1,0 +1,6 @@
+query Orders7days {
+  orders7days {
+    date
+    count
+  }
+}

@@ -1,0 +1,6 @@
+query MyProducts {
+  myProducts {
+    id
+    name
+  }
+}

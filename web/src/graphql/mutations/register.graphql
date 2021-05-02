@@ -1,0 +1,5 @@
+mutation CreateUser($email: String!, $password: String!) {
+  createUser(options: { email: $email, password: $password }) {
+    ...RegularUserResponse
+  }
+}

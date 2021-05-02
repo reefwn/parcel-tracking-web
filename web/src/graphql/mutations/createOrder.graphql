@@ -1,0 +1,9 @@
+mutation CreateOrder($input: OrderInput!) {
+  createOrder(input: $input) {
+    id
+    customerAcc
+    chatroomId
+    createdAt
+    updatedAt
+  }
+}
