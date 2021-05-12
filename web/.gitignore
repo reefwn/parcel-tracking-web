@@ -1,4 +1,6 @@
 yarn-error.log
-node_modules
+next-env.d.ts
+node_modules/
 yarn.lock
+.next/
 .env
